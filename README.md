@@ -1,14 +1,16 @@
 # PLL1 PCB Project
-This project showcases the design and implementation of a Phase-Locked Loop (PLL1) circuit using KiCad8.0. It includes schematic design, PCB layout, and fabrication files. After generating the Gerber files, the board was fabricated and manually assembled. Prior to fabrication, functionality was verified using a perfboard prototype.
+
+This repository contains the complete design and implementation of a basic Phase-Locked Loop (PLL) circuit, referred to as PLL1. The project was developed using KiCad for schematic capture and PCB layout, and includes all the necessary files for fabrication and assembly.
+Before finalizing the PCB, the circuit was first tested on a perfboard to verify its functionality. Once validated, the PCB was fabricated and components were soldered manually.
 
 # Preview
-## Assembled PCB  
+Assembled PCB
 [![Assembled PCB](media/pll1-real-board.jpg)](media/pll1-real-board.jpg)
-## Prototype Testing on Perfboard  
-[![Prototype Testing](media/ppl1-proto-board.jpg)](media/ppl1-proto-board.jpg)
+Prototype Testing on Perfboard
+[![Prototype Testing](media/pll1-proto-board.jpg)](media/pll1-proto-board.jpg)
 
 # Project Structure
-
+```
 PLL1-PCB-Project/
 ├── src/
 │   ├── PLL1.sch                  # Schematic file
@@ -20,44 +22,45 @@ PLL1-PCB-Project/
 │   ├── BOM.csv                   # Bill of Materials
 │   ├── PickAndPlace.csv          # Component placement data
 │   ├── pll1.drl                  # Drill file
-│   ├── .gbr                     # Gerber fabrication files
+│   ├── *.gbr                     # Gerber fabrication files
 │
 ├── media/
 │   ├── pll1-real-board.jpg       # Final PCB image
-│   └── ppl1-proto-board.jpg      # Perfboard prototype image
+│   └── pll1-proto-board.jpg      # Perfboard prototype image
 │
 └── README.md                     # Project documentation
 ```
 
----
-
 ## Tools Used
 
-- **KiCad 8.0** – for schematic and PCB design
-- **Manual Soldering** – for component assembly
-- **Perfboard Testing** – basic circuit verification before PCB fabrication
-
----
+* KiCad 8.0 – for creating the schematic and PCB layout
+* Manual soldering – to assemble the fabricated PCB
+* Perfboard – used for initial testing and verification of the circuit
 
 ## Output Files
 
-- **Bill of Materials (BOM)**
-- **Pick-and-Place file**
-- **Drill file**
-- **Gerber files** (for PCB fabrication)
+The `output/` directory contains all necessary files for PCB fabrication and assembly:
 
----
+* Gerber files
+* Drill file
+* Bill of Materials (BOM)
+* Pick-and-place file
 
 ## Applications
 
-- Educational exploration of PLL circuits  
-- Hands-on experience with PCB design and manufacturing  
-- Practice in manual soldering and prototyping
+This project is intended for educational purposes and hands-on practice. It’s a simple yet effective way to understand the working of PLL circuits and gain experience in:
 
+* Schematic and PCB design
+* Manual soldering techniques
+* PCB fabrication process
 
 ## Author
-D.V.Mohith 
-Electrical Engineering  
-IIT Bhubaneswar  
-GitHub: [dvmohith-66](https://github.com/dvmohith-66)
+
+D V Mohith
+B.Tech, Electrical Engineering
+Indian Institute of Technology Bhubaneswar
+GitHub: [https://github.com/dvmohith-66](https://github.com/dvmohith-66)
+
+---
+
 
