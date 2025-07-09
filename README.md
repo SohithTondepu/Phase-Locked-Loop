@@ -56,11 +56,10 @@ This project is intended for educational purposes and hands-on practice. It’s 
 
 ## Author
 
-D V Mohith
-B.Tech, Electrical Engineering
-Indian Institute of Technology Bhubaneswar
+D V Mohith                                                                                                                                                                                                           
+B.Tech, Electrical Engineering                                                                                                                                                                                       
+Indian Institute of Technology Bhubaneswar                                                                                                                                                                           
 GitHub: [https://github.com/dvmohith-66](https://github.com/dvmohith-66)
 
----
 
 
