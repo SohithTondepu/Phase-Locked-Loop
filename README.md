@@ -4,11 +4,11 @@ This project showcases the design and implementation of a Phase-Locked Loop (PLL
 # Preview
 ## Assembled PCB  
 [![Assembled PCB](media/pll1-real-board.jpg)](media/pll1-real-board.jpg)
-
 ## Prototype Testing on Perfboard  
 [![Prototype Testing](media/ppl1-proto-board.jpg)](media/ppl1-proto-board.jpg)
 
 # Project Structure
+
 PLL1-PCB-Project/
 ├── src/
 │   ├── PLL1.sch                  # Schematic file
@@ -31,7 +31,7 @@ PLL1-PCB-Project/
 
 ---
 
-#Tools Used
+## Tools Used
 
 - **KiCad 8.0** – for schematic and PCB design
 - **Manual Soldering** – for component assembly
@@ -39,7 +39,7 @@ PLL1-PCB-Project/
 
 ---
 
-## 📤 Output Files
+## Output Files
 
 - **Bill of Materials (BOM)**
 - **Pick-and-Place file**
@@ -48,14 +48,14 @@ PLL1-PCB-Project/
 
 ---
 
-## 🎯 Applications
+## Applications
 
 - Educational exploration of PLL circuits  
 - Hands-on experience with PCB design and manufacturing  
 - Practice in manual soldering and prototyping
 
 
- Author
+## Author
 D.V.Mohith 
 Electrical Engineering  
 IIT Bhubaneswar  
